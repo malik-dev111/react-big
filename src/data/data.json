@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "title": "MackBook Air",
+        "price": 9.99,
+        "description": "This is a sample product description.",
+        "category": "electronics",
+        "image": "https://via.placeholder.com/150"
+    },
+    {
+        "id": 2,
+        "title": "Macbook Air pro",
+        "price": 19.99,
+        "description": "This is another sample product description.",
+        "category": "clothing",
+        "image": "https://via.placeholder.com/150"
+    },
+    {
+        "id": 3,
+        "title": "Macbook Air pro max",
+        "price": 19.99,
+        "description": "This is another sample product description.",
+        "category": "clothing",
+        "image": "https://via.placeholder.com/150"
+    },
+    {
+        "id": 4,
+        "title": "Macbook Air pro max ultra",
+        "price": 19.99,
+        "description": "This is another sample product description.",
+        "category": "clothing",
+        "image": "https://via.placeholder.com/150"
+    },
+    {
+        "id": 6,
+        "title": "Macbook Air pro max ultra max",
+        "price": 19.99,
+        "description": "This is another sample product description.",
+        "category": "clothing",
+        "image": "https://via.placeholder.com/150"
+    }
+]

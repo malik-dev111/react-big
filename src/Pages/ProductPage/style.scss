@@ -1,42 +1,41 @@
-$primary-color: #007bff;
-$secondary-color: #6c757d;
-$background-color: #f8f9fa;
+.product-s {
+  .container {
+    display: flex;
+    align-items: center;
+    padding: 6em 1em;
+        justify-content: space-between;
+    
+    img{
+        max-width: 50em;
+        max-height: 50em;
+    }
+    .product-txt-s{
+        display: flex;
+        flex-direction: column;
+        gap: 2em;
+        align-items: start;
+        span{
+            font-size: 3em;
+            color: red;
+        }
+        h1{
+            font-size: 6em;
+            color: cornflowerblue;
 
-body {
-  background-color: $background-color;
-  font-family: 'Helvetica Neue', sans-serif;
-  font-size: 16px;
-  line-height: 1.5;
-  color: $secondary-color;
-}
+        }
+        p{
+            max-width: 30em;
+            font-size: 2.5em;
+            color: gray;
+        }
+        button{
+            padding: .4em .8em;
+            font-size: 3em;
+            background: cornflowerblue;
+            color: #fff;
+            border-radius: .5em;
+        }
 
-h1, h2, h3, h4, h5, h6 {
-  font-size: 0.1em;
-  margin-top: 0;
-  margin-bottom: 1rem;
-  font-family: 'Helvetica Neue', sans-serif;
-  font-weight: bold;
-  color: $primary-color;
-}
-
-a {
-  color: $primary-color;
-  text-decoration: none;
-  &:hover {
-    text-decoration: underline;
-    color: darken($primary-color, 10%); /* hover efektinde rengi koyulaştır */
-  }
-}
-
-button {
-  padding: 0.5rem 1rem;
-  font-size: 1rem;
-  border: none;
-  border-radius: 0.25rem;
-  background-color: $primary-color;
-  color: #fff;
-  cursor: pointer;
-  &:hover {
-    background-color: darken($primary-color, 10%);
+    }
   }
 }
